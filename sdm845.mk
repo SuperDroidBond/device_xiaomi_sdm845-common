@@ -23,9 +23,9 @@ DEVICE_PACKAGE_OVERLAYS += \
 PRODUCT_PACKAGES += \
     fs_config_files
 
-# Ambient Display
+# Xiaomi Shit
 PRODUCT_PACKAGES += \
-    XiaomiDoze
+    XiaomiShit
 
 # Audio
 PRODUCT_PACKAGES += \
