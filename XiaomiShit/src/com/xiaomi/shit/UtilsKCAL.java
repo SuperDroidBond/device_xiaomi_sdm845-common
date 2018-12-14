@@ -63,7 +63,6 @@ public final class UtilsKCAL {
      * Convert color temperature in Kelvins to ColorMatrix color
      * @param temperature
      * @return array of ColorMatrix (R, G, B)
-     */
     public static int[] RGBfromK(int temperature) {
         int[] rgb = new int[3];
         temperature = temperature / 100;
@@ -109,7 +108,9 @@ public final class UtilsKCAL {
         Log.e("RGBfromK",""+temperature+" "+red+" "+" "+green+" "+blue);
         return rgb;
     }
+     */
 
+	/**
     public static int KfromRGB(double R, double G, double B) {
         double r, g, b, X, Y, Z, xr, yr, zr;
 
@@ -151,6 +152,7 @@ public final class UtilsKCAL {
         int CCT=(int) ((-449*Math.pow((x-0.332)/(y-0.1858), 3))+(3525*Math.pow((x-0.332)/(y-0.1858), 2))-(6823.3*((x-0.332)/(y-0.1858)))+(5520.33));
         return CCT;
     }
+     */
 
     public static double clamp(double x, double min, double max) {
         if (x < min) {
